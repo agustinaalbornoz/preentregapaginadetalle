@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla Visible - Belluccia 3</title>
+
+    <!-- Tipografía desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Framework CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+  
+    <link src="https://kit.fontawesome.com/33daa352e3.js" crossorigin="anonymous"></link>
+  
+
+</head>
+  <body>
+
+<!-- NAVBAR: Menú de navegación fijo superior -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <!-- Logo o nombre del sitio -->
+    <a class="navbar-brand" href="#">YaVino</a>
+    <!-- Botón para mostrar menú en mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Ítems del menú -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Equipo</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- /NAVBAR -->
+
+<!-- HERO: Sección de portada con llamado a la acción -->
+<section class="section-spacing container-fluid d-flex align-items-center justify-content-between bghero px-5" style="min-height: 100vh; padding-top: 100px; margin: 0px;  ">
+  <div class="row align-items-center">
+    <!-- Texto principal -->
+    <div class="col-lg-6">
+      <h9 class="h1-custom" style="margin-left: 100px; font-size: 65px;">RAIZ DE TIERRA</h9>
+      <p class="p-custom" style="margin-left: 100px;">La experiencia mas completa de nuestra suscripción.</p>
+      <div class="d-flex gap-3 mt-4" style="margin: 34px">
+        <a href="#" class="btn btn-dark" style="margin-left: 64px; color: #0f2925;" >Suscribirse</a>
+        
+      </div>
+    </div>
+    <!-- Imagen destacada -->
+    <div class="col-lg-6 text-center">
+      <img src="imagenes/hero%20de%20detalle%20mas%20chico.png"  class="img-fluid img-rounded" alt="Imagen Hero" style="margin-top: 40px;">
+    </div>
+  </div>
+  <div></div>
+</section>
+
+  
+<!-- GALERÍA E: Cards tipo "story" con imagen y texto -->
+<section class="section-spacing container py-5 text-center">
+  <h2 class="mb-4" class="h2-custom">Galería de historias</h2>
+  <div class="row g-4">
+    <div class="col-md-2 ">
+      <div class="card  pack">
+        <img src="imagenes/vino%20tinto%20detalle.png" style="width: 100% "class="card-img-top" alt="">
+        <div class="card-body">
+          <p class="card-text small">1 Vino Tinto.</p>
+        </div>
+      </div>
+    </div>
+     <div class="col-md-2">
+      <div class="card  pack">
+        <img src="imagenes/vino%20blanco%20detalle.png" class="card-img-top" alt="">
+        <div class="card-body">
+          <p class="card-text small">1 Vino Blanco.</p>
+        </div>
+      </div>
+    </div>
+     <div class="col-md-2">
+      <div class="card  pack">
+        <img src="imagenes/vino%20especial%20detalle.png" class="card-img-top" alt="">
+        <div class="card-body">
+          <p class="card-text small">1 vino Edicion Especial.</p>
+        </div>
+      </div>
+    </div>
+     <div class="col-md-2">
+      <div class="card  pack">
+        <img src="imagenes/marinaje%20detalle.png" class="card-img-top" alt="">
+        <div class="card-body">
+          <p class="card-text small">Maridaje.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="card pack">
+        <img src="imagenes/copa%20vino%20detalle.png" class="card-img-top" alt="">
+        <div class="card-body">
+          <p class="card-text small">1 Copa de Vino.</p>
+        </div>
+      </div>
+    </div>
+    <!-- repetir para más -->
+  </div>
+</section>
+
+
+
+  
+<!-- SECCIÓN A: Texto centrado sin imagen -->
+<section class="section-spacing container-fluid text-center 10%descuento px-5" style="background-image: url(imagenes/10%25descuento.png);background-size: cover; background-repeat: no-repeat; background-position-x: center;">
+  <h2 class="display-5" class="h2-custom">.</h2>
+  <p class="lead-custom">.</p>
+  <div class="mt-4 d-flex justify-content-center gap-3">
+    
+  </div>
+</section>
+
+  <!-- SECCIÓN C: Texto izquierda, imagen derecha -->
+   <section class="section-spacing container-fluid fondolineas px-5">
+    <div class="row align-items-center">
+    <!-- Columna de texto -->
+    <div class="col-lg-6"> 
+      <h2 class="display-5" class="h2-custom" style="margin-left: 120px;">FICHAS DE CATA </h2>
+      <p class="lead-custom" style="margin-left: 120px;">Recibis una con cada recibimiento de tu suscripción, explicandote cuales fueron los vinos que te tocaron, de que vinotecas son, que mesclas de uvas contiene y como catar correctamente el vino.  </p>
+      <a href="#" class="btn btn-primary mt-3" style="margin-left: 120px;">Conocer más</a>
+    </div>
+    <!-- Columna de imagen -->
+    <div class="col-lg-6 text-center mt-4 mt-lg-0">
+       <img src="imagenes/copas%20.png" class="img-fluid img-rounded" alt="Imagen ilustrativa">
+    </div>
+  </div>
+</section>
+    
+    
+    
+<!--foto a la izquierda-->
+    <section class="section-spacing container-fluid fondolineas px-5">
+    <div class="row align-items-center">
+    <!-- Columna de imagen -->
+    <div class="col-lg-6 text-center mb-4 mb-lg-0">
+      <img src="imagenes/maridaje.png" class="img-fluid img-rounded" alt="Imagen ilustrativa">
+    </div>
+    <!-- Columna de texto -->
+    <div class="col-lg-6">
+      <h2 class="display-5" class="h2-custom">MARIDAJE</h2>
+      <p class="lead-custom" style="margin-right: 50px;">Todos las suscripciónes vienen con un maridaje premuim, especialisado segun los vinos brindados en cada suscripción.</p>
+      <a href="#" class="btn btn-primary mt-3">Conocer más</a>
+    </div>
+  </div>
+</section>
+  
+  
+
+  
+<!-- PLANES DE SUSCRIPCIÓN: Sección con 3 opciones destacadas -->
+  
+  <section id="fondo3" class="section-spacing container text-center px-lg-5" style="background-image: url(imagenes/suscripcion.png); px-5;  background-size: cover;background-position: center; background-repeat: no-repeat;">
+  <h2 class="h2-custom1">OTROS PLANES</h2>
+  <p class="p-custom">¿Sentis que este plan no es para ti? tranquilo tenemos ostras opciones.</p>
+  
+  <div class="row align-items-start mt10">
+    
+    <!-- Card: Plan Básico -->
+    <div class="col-md-4 mb-4align-self-center">
+      <div class="card p-4 cardsuscripcion">
+        <!-- Título y precio -->
+        <h51 class="text-uppercase">Brisa Astral</h51>
+        <p class="display-6 p1">$45.000 <small>/ mes</small></p>
+        
+        <!-- Imagen ilustrativa -->
+        <img src="imagenes/suscripsion%20pack1.png" class="img-fluid img-rounded my-3" alt="Plan Básico">
+
+        <!-- Descripción -->
+        <p class="p-custom2">Perfecto para empezar.<br><strong>Incluye:</strong></p>
+        
+        <!-- Lista de beneficios -->
+        <ul class="list-unstyled text-start mx-auto h7" style="max-width: 250px;">
+          <li>✔ 1 tinto + 1 blanco</li>
+          <li>✔ Maridaje </li>
+          <li>✔ Fichas de cata impresas + QR a video de sommelier</li>
+          <li>✔ wine swap</li>
+          <li>✔ 1 Copa de coleccion</li>
+          <li>x 1 vino edicion especial</li>
+        </ul>
+
+        <!-- Botón CTA -->
+        <a href="#" class="btn btn-primary mt-3">Elegir plan</a>
+      </div>
+    </div>
+
+    <!-- Card: Plan Full -->
+    <div class="col-md-4 mb-4 align-self-center">
+      <div class="card p-4 cardsuscripcion align-self-center">
+        <!-- Título y precio -->
+        <h51 class="text-uppercase">Plan Full</h51>
+        <p class="display-6 p1">$60.000 <small>/ mes</small></p>
+        
+        <!-- Imagen ilustrativa -->
+        <img src="imagenes/suscripsion%20pack1.png" class="img-fluid img-rounded my-3" alt="Plan Full">
+
+        <!-- Descripción -->
+        <p class="p-custom2">La experiencia completa.<br><strong>Incluye:</strong></p>
+        
+        <!-- Lista de beneficios -->
+        <ul class="list-unstyled text-start mx-auto h7" style="max-width: 250px;">
+          <li>✔ 1 tinto + 1 blanco</li>
+          <li>✔ Maridaje</li>
+          <li>✔ wine swap</li>
+          <li>x Fichas de cata impresas + QR a video de sommelier</li>
+          <li>x Copa de coleccion</li>
+          <li>x 1 vino edicion especial</li>
+          
+        </ul>
+
+        <!-- Botón CTA -->
+        <a href="#" class="btn btn-primary mt-3">Suscribirse</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+  
+  
+<!-- TESTIMONIALS: Opiniones de clientes -->
+<section class="section-spacing container text-center">
+  <h2 class="h2-custom">Testimonios</h2>
+  <p class="p-custom">Comentarios reales de usuarios para generar confianza.</p>
+  <div class="row">
+    <!-- Cada columna es un testimonio -->
+    <div class="col-md-4 h-100">
+      <blockquote class="blockquote p-4" style="box-shadow: 10px 10px 0 #0f2925; background-color: #f8c2c2;">
+        “Me encanto, adquiris muchos conocimientos sobre el vino y te introducen muchas vinotecas nuevas”
+        <footer class="blockquote-footer mt-3">Maria Paul</footer>
+      </blockquote>
+    </div>
+    <!-- Cada columna es un testimonio -->
+    <div class="col-md-4 h-100">
+      <blockquote class="blockquote p-4" style="box-shadow: 10px 10px 0 #0f2925; background-color: #f8c2c2;">
+        “Increible estoy suscripto hace 3 meses y aprendi mucho de vinos mas que en años de intentar solo”
+        <footer class="blockquote-footer mt-3">pablo Muiz</footer>
+      </blockquote>
+    </div>
+    <!-- Cada columna es un testimonio -->
+    <div class="col-md-4 h-100">
+      <blockquote class="blockquote p-4" style="box-shadow: 10px 10px 0 #0f2925; background-color: #f8c2c2;">
+        “Una hermosa experiencia, la caja llega siempre a tiempo y siempre hay nueva variedad de vinos”
+        <footer class="blockquote-footer mt-3">Mario Pless</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>  
+
+
+  
+  <!-- SECCIÓN A: Texto centrado sin imagen -->
+<section class="section-spacing container text-center">
+  <h2 class="display-5" class="h2-custom">No te pierdas nuestras novedades</h2>
+  <p class="lead-custom">suscribite para enterarte las noticias antes que nadie.</p>
+  <div class="mt-4 d-flex justify-content-center gap-3">
+    <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Tu mail">
+        
+    </div><a href="#" class="btn btn-primary mb-3">pone tu mail</a>
+   
+  </div>
+</section>
+  
+  
+  
+
+<!-- FOOTER: Pie de página -->
+<footer class="text-center py-4">
+  <div class="container">
+    <p class="p-custom">© 2025 Belluccia 3 - Visible Template. Todos los derechos reservados.</p>
+  </div>
+</footer>
+<!-- /FOOTER -->
+
+<!-- Bootstrap Bundle JS (incluye Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+<!-- Script personalizado para cambiar el navbar al hacer scroll -->
+<script>
+window.addEventListener('scroll', function() {
+  const navbar = document.querySelector('.navbar');
+  navbar.classList.toggle('scrolled', window.scrollY > 50);
+});
+</script>
+
+<!-- Scripts adicionales -->
+<script src="scripts.js"></script>
+</body>
+</html>
